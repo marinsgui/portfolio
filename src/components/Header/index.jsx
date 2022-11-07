@@ -14,7 +14,7 @@ export default function Header() {
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre</a>
+                        <a href="../pages/Sobre">Sobre</a>
                     </li>
                     <li>
                         <a href="#">Projetos</a>

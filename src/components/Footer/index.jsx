@@ -9,12 +9,12 @@ export default function Footer() {
             <nav>
                 <ul>
                     <li>
-                        <a href="https://github.com/marinsgui">
+                        <a href="https://github.com/marinsgui" target='_blank'>
                             <FontAwesomeIcon icon={faGithub} className='social-logo' />
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/guilherme-marins/">
+                        <a href="https://www.linkedin.com/in/guilherme-marins/" target='_blank'>
                             <FontAwesomeIcon icon={faLinkedin} className='social-logo' />
                         </a>
                     </li>
