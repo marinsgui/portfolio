@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -14,80 +13,3 @@ body {
   background-size: cover;
   /* background by SVGBackgrounds.com */
 }
-
-header {
-  height: 15vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: 'Play', sans-serif;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: space-around;
-  gap: 50px;
-  list-style: none;
-}
-
-header nav ul li a {
-  font-weight: bold;
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  transition: all 0.5s;
-}
-
-header nav ul li a:hover {
-  color: #AA00AA;
-}
-
-header .logo .code-logo {
-  width: 60px;
-  height: 60px;
-  color: white;
-}
-
-main section {
-  margin-top: 150px;
-}
-
-main section h1, p {
-  text-align: center;
-  font-family: 'Play', sans-serif;
-  color: rgb(255, 255, 255);
-  text-shadow: 0px 1px 1px black;
-}
-
-main section h1 {
-  font-size: 4em;
-  margin-bottom: 5px;
-}
-
-main section p {
-  font-size: 3em;
-}
-
-footer {
-  margin-top: 450px;
-}
-
-footer nav ul {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  list-style: none;
-  gap: 20px;
-}
-
-.social-logo:hover {
-  transform: scale(120%);
-}
-
-.social-logo {
-  height: 40px;
-  width: 40px;
-  transition: all 0.5s;
-  color: white;
-}
-

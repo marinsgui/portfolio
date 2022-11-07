@@ -1,0 +1,22 @@
+footer {
+    margin-top: 450px;
+}
+  
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    list-style: none;
+    gap: 20px;
+}
+  
+.social-logo:hover {
+    transform: scale(120%);
+}
+  
+.social-logo {
+    height: 40px;
+    width: 40px;
+    transition: all 0.5s;
+    color: white;
+}
