@@ -1,6 +1,7 @@
 import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
 
@@ -33,6 +34,23 @@ function App() {
           <p>Front-end Developer</p>
         </section>
       </main>
+
+      <footer>
+        <nav>
+          <ul>
+            <li>
+              <a href="https://github.com/marinsgui">
+                <FontAwesomeIcon icon={faGithub} className='social-logo' />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/guilherme-marins/">
+                <FontAwesomeIcon icon={faLinkedin} className='social-logo' />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
     </div>
   )
 }
