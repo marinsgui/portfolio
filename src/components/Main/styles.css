@@ -4,7 +4,7 @@ main section {
   
 main section h1, p {
     text-align: center;
-    font-family: 'Play', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     color: rgb(255, 255, 255);
     text-shadow: 0px 1px 1px black;
 }
