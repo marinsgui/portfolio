@@ -3,24 +3,27 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 
 import './styles.css'
 
+import { Link } from 'react-router-dom';
+
+
 export default function Header() {
     return (
         <header>
             <div className='logo'>
-                <a href="#">
+                <Link to='/'>
                     <FontAwesomeIcon icon={faCode} className='code-logo' />
-                </a>
+                </Link>
             </div>
             <nav>
                 <ul>
                     <li>
-                        <a href="../pages/Sobre">Sobre</a>
+                        <Link to='/sobre'>Sobre</Link>
                     </li>
                     <li>
-                        <a href="#">Projetos</a>
+                        <Link to='/projetos'>Projetos</Link>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <Link to='/contato'>Contato</Link>
                     </li>
                 </ul>
             </nav>

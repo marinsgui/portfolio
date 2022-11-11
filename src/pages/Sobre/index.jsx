@@ -1,12 +1,9 @@
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-
 export default function Sobre() {
     return (
-        <>
-            <Header />
-            
-            <Footer />
-        </>
+        <main>
+            <section>
+                <h1>Olá</h1>
+            </section>
+        </main>
     )
 }

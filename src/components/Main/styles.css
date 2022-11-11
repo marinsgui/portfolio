@@ -1,19 +1,20 @@
 main section {
     margin-top: 150px;
-}
+  }
   
-main section h1, p {
+  main section h1, p {
     text-align: center;
     font-family: 'Space Grotesk', sans-serif;
     color: rgb(255, 255, 255);
     text-shadow: 0px 1px 1px black;
-}
+  }
   
-main section h1 {
+  main section h1 {
     font-size: 4em;
     margin-bottom: 5px;
-}
+  }
   
-main section p {
+  main section p {
     font-size: 3em;
-}
+  }
+  
