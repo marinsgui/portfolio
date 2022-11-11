@@ -1,0 +1,25 @@
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    overflow: hidden;
+    width: 350px;
+}
+
+.item p {
+    font-size: 26px;
+    margin-top: 5px;
+}
+
+.item img {
+    max-width: 100%;
+    transition: 0.7s all ease-in-out;
+    border-radius: 10px;
+}
+
+.item:hover img {
+    transform: scale(1.1);
+}
