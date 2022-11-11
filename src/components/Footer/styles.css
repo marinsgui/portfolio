@@ -23,3 +23,8 @@ footer nav ul {
     transition: all 0.5s;
     color: white;
 }
+
+small {
+    color: white;
+    font-size: 10px;
+}
