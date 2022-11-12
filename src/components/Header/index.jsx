@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { FaCode } from 'react-icons/fa';
 
 import './styles.css'
 
@@ -11,7 +10,7 @@ export default function Header() {
         <header>
             <div className='logo'>
                 <Link to='/'>
-                    <FontAwesomeIcon icon={faCode} className='code-logo' />
+                    <FaCode className='icon-logo' />
                 </Link>
             </div>
             <nav>

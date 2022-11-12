@@ -1,7 +1,6 @@
 import './styles.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export default function Footer() {
     return (
@@ -10,12 +9,12 @@ export default function Footer() {
                 <ul>
                     <li>
                         <a href="https://github.com/marinsgui" target='_blank'>
-                            <FontAwesomeIcon icon={faGithub} className='social-logo' />
+                            <FaGithub className='social-logo' />
                         </a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/guilherme-marins/" target='_blank'>
-                            <FontAwesomeIcon icon={faLinkedin} className='social-logo' />
+                            <FaLinkedin className='social-logo' />
                         </a>
                     </li>
                 </ul>
