@@ -2,11 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .item {
     overflow: hidden;
     width: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 6.5px 8px;
 }
 
 .item p {
@@ -21,5 +25,5 @@
 }
 
 .item:hover img {
-    transform: scale(1.1);
+    transform: scale(105%);
 }

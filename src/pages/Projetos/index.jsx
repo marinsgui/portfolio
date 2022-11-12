@@ -10,6 +10,12 @@ export default function Projetos() {
                     </a>
                     <p>Calculadora de IMC</p>
                 </div>
+                <div className='item'>
+                    <a href="https://explorer-lab-01-marinsgui.vercel.app/" target='_blank'>
+                        <img src="src\assets\rocketpay.jpg" alt="Rocketpay" />
+                    </a>
+                    <p>Rocketpay</p>
+                </div>
             </section>
         </main>
     )
