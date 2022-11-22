@@ -22,6 +22,12 @@ export default function Projetos() {
                     </a>
                     <p>Lista de tarefas</p>
                 </div>
+                <div className='item'>
+                    <a href="https://weather-now-bay.vercel.app/" target='_blank'>
+                        <img src="src\assets\weather-now.jpg" alt="Weather Now" />
+                    </a>
+                    <p>Weather Now</p>
+                </div>
             </section>
         </main>
     )
