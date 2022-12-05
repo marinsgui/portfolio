@@ -13,12 +13,11 @@ export default function Projetos() {
         <main>
             <section className='projects-container'>
                 <div className='item'>
-                    <a href="https://calculadora-de-imc-eta.vercel.app/" target='_blank'>
                         <img src={imc_image} alt="Calculadora de IMC" />
-                    </a>
                     <p>Calculadora de IMC</p>
-                    <Popup trigger={false}>
-                        <h3>My popup</h3>
+                    <Popup trigger={true}>
+                    <a href="https://calculadora-de-imc-eta.vercel.app/" target='_blank'>Projeto</a>
+                    <a href="https://github.com/marinsgui/calculadora-de-imc" target='_blank'>Repositório</a>
                     </Popup>
                 </div>
                 <div className='item'>
