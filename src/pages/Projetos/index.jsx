@@ -6,6 +6,8 @@ import todo_list_image from '../../assets/todo-list.jpg';
 import weather_now_image from '../../assets/weather-now.jpg';
 import movies_lib_image from '../../assets/movies-lib.jpg';
 
+import Popup from '../../components/Popup';
+
 export default function Projetos() {
     return (
         <main>
@@ -15,6 +17,15 @@ export default function Projetos() {
                         <img src={imc_image} alt="Calculadora de IMC" />
                     </a>
                     <p>Calculadora de IMC</p>
+                    <Popup trigger={false}>
+                        <h3>My popup</h3>
+                    </Popup>
+                </div>
+                <div className='item'>
+                    <a href="https://movies-lib-blond.vercel.app/" target='_blank'>
+                        <img src={movies_lib_image} alt="Movies Lib" />
+                    </a>
+                    <p>Movies Lib</p>
                 </div>
                 <div className='item'>
                     <a href="https://explorer-lab-01-marinsgui.vercel.app/" target='_blank'>
@@ -33,12 +44,6 @@ export default function Projetos() {
                         <img src={weather_now_image} alt="Weather Now" />
                     </a>
                     <p>Weather Now</p>
-                </div>
-                <div className='item'>
-                    <a href="https://movies-lib-blond.vercel.app/" target='_blank'>
-                        <img src={movies_lib_image} alt="Movies Lib" />
-                    </a>
-                    <p>Movies Lib</p>
                 </div>
             </section>
         </main>
