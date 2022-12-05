@@ -38,4 +38,12 @@
     position: absolute;
     top: 16px;
     right: 16px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.popup-content .close-btn svg {
+    width: 1.5em;
+    height: 1.5em;
 }
