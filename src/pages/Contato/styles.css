@@ -1,0 +1,30 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.contacts h2 {
+    font-size: 3em;
+}
+
+.contacts ul {
+    list-style: none;
+}
+
+.contacts ul li {
+    font-size: 2em;
+    border: 1px solid #fff;
+    padding: 0.4em;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.contacts ul li a {
+    color: #fff;
+    text-decoration: none;
+}
