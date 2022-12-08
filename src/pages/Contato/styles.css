@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 1.4em;
     color: #fff;
     font-family: 'Space Grotesk', sans-serif;
 }
@@ -40,12 +40,21 @@
     padding: 1em;
     font-size: 16px;
     border-radius: 0.5em;
+    background-color: rgba(21, 21, 21, 0.755);
+    border: 1px solid #fff;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #fff;
+}
+
+.contacts form input::placeholder, .contacts form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.869);
 }
 
 .contacts form button {
     padding: 1em;
     border-radius: 0.5em;
-    background-color: rgba(95, 81, 187, 0.848);
+    border: 1px solid #fff;
+    background-color: rgba(65, 60, 98, 0.735);
     color: #fff;
     cursor: pointer;
 }
