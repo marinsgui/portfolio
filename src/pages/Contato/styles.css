@@ -28,3 +28,24 @@
     color: #fff;
     text-decoration: none;
 }
+
+.contacts form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 0.3em;
+}
+
+.contacts form input, .contacts form textarea {
+    padding: 1em;
+    font-size: 16px;
+    border-radius: 0.5em;
+}
+
+.contacts form button {
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: rgba(95, 81, 187, 0.848);
+    color: #fff;
+    cursor: pointer;
+}
