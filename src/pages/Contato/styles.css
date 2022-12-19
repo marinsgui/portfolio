@@ -27,6 +27,9 @@
 .contacts ul li a {
     color: #fff;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
 }
 
 .contacts form {
@@ -36,7 +39,8 @@
     gap: 0.3em;
 }
 
-.contacts form input, .contacts form textarea {
+.contacts form input, 
+.contacts form textarea {
     padding: 1em;
     font-size: 16px;
     border-radius: 0.5em;
@@ -46,7 +50,8 @@
     color: #fff;
 }
 
-.contacts form input::placeholder, .contacts form textarea::placeholder {
+.contacts form input::placeholder, 
+.contacts form textarea::placeholder {
     color: rgba(255, 255, 255, 0.869);
 }
 
