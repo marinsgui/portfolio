@@ -14,7 +14,7 @@
 
 .item img {
     max-width: 100%;
-    transition: 0.7s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     border-radius: 10px;
 }
 
