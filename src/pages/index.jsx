@@ -3,8 +3,10 @@ import Image from 'next/image'
 
 import jsAnimated from '../assets/javascript-frameworks-animate.svg'
 
-import { FaArrowRight } from 'react-icons/fa' 
+import { MdOutlineArrowForwardIos } from 'react-icons/md' 
+
 import About from '@/components/About'
+import Projects from '@/components/Projects'
 
 export default function Home() {
   return (
@@ -24,7 +26,7 @@ export default function Home() {
               <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500'>
                 Projetos
                 <span className='group-hover:rotate-90 duration-300'>
-                  <FaArrowRight size={20} className='pl-2' />
+                  <MdOutlineArrowForwardIos size={20} className='pl-2' />
                 </span>
               </button>
             </div>
@@ -36,6 +38,7 @@ export default function Home() {
         </div>
       </main>
       <About />
+      <Projects />
     </>
   )
 }
