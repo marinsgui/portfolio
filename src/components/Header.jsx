@@ -28,7 +28,7 @@ export default function Header() {
     ]
 
     return (
-        <header className="flex justify-between items-center w-full h-20 px-4 text-white fixed bg-black">
+        <header className="flex justify-between items-center w-full h-20 px-4 text-white sticky bg-black">
             <div>
                 <FaCode size={60} className='ml-2' />
             </div>
