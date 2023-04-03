@@ -28,14 +28,14 @@ export default function Header() {
     ]
 
     return (
-        <header className="flex justify-between items-center w-full h-20 px-4 text-white sticky bg-black">
+        <header className="flex justify-between items-center w-full h-20 px-4 text-white sticky top-0 bg-black">
             <div>
                 <FaCode size={60} className='ml-2' />
             </div>
 
             <ul className='hidden md:flex'>
                 {links.map(link => (
-                    <li key={link.id} className='px-4 font-medium text-gray-500 hover:scale-105 duration-200'>{link.link}</li>
+                    <li key={link.id} className='px-4 font-medium text-gray-500 hover:scale-105 duration-200 cursor-pointer'>{link.link}</li>
                 ))}
             </ul>
 
