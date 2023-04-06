@@ -9,14 +9,20 @@ export default function Projects() {
         {
             id: 1,
             src: moviesLib,
+            code: 'https://github.com/marinsgui/movies-lib',
+            project: 'https://movies-lib-blond.vercel.app/',
         },
         {
             id: 2,
             src: panelinha,
+            code: 'https://github.com/marinsgui/panelinha',
+            project: 'https://panelinha.vercel.app/',
         },
         {
             id: 3,
             src: tasks,
+            code: 'https://github.com/marinsgui/tasks',
+            project: 'https://tasks-tau-six.vercel.app/',
         },
     ]
 
@@ -33,8 +39,18 @@ export default function Projects() {
                       <div key={project.id} className='shadow-md shadow-gray-600 rounded-lg'>
                           <Image src={project.src} alt='Projeto' className='rounded-md duration-200 hover:scale-105' />
                           <div className='flex justify-center items-center'>
-                              <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Projeto</button>
-                              <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Código</button>
+                            <a 
+                                href={project.project} 
+                                target='_blank' 
+                                rel='external' 
+                                className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'
+                            >Projeto</a>
+                            <a 
+                                href={project.code} 
+                                target='_blank' 
+                                rel='external' 
+                                className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'
+                            >Código</a>
                           </div>
                       </div>
                   ))}
