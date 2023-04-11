@@ -6,6 +6,7 @@ import reactImg from '../assets/react.png'
 import tailwindImg from '../assets/tailwind.png'
 import nextjsImg from '../assets/nextjs.png'
 import githubImg from '../assets/github.png'
+import bootstrapImg from '../assets/bootstrap.png'
 
 import Image from 'next/image'
 
@@ -52,6 +53,12 @@ export default function Skills() {
             src: githubImg,
             title: 'Github',
             style: 'shadow-gray-400'
+        },
+        {
+            id: 8,
+            src: bootstrapImg,
+            title: 'Bootstrap',
+            style: 'shadow-purple-500'
         },
     ]
 

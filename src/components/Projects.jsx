@@ -3,6 +3,8 @@ import Image from 'next/image'
 import moviesLib from '../assets/projects/movieslib.png'
 import panelinha from '../assets/projects/panelinha.png'
 import tasks from '../assets/projects/tasks.png'
+import shopping from '../assets/projects/shop-ping.png'
+import calculadoraImc from '../assets/projects/calculadoraimc.png'
 
 export default function Projects() {
     const projects = [
@@ -23,6 +25,18 @@ export default function Projects() {
             src: tasks,
             code: 'https://github.com/marinsgui/tasks',
             project: 'https://tasks-tau-six.vercel.app/',
+        },
+        {
+            id: 4,
+            src: shopping,
+            code: 'https://github.com/marinsgui/shop-ping',
+            project: 'https://shop-ping.vercel.app/',
+        },
+        {
+            id: 5,
+            src: calculadoraImc,
+            code: 'https://github.com/marinsgui/calculadora-de-imc',
+            project: 'https://calculadora-de-imc-eta.vercel.app/',
         },
     ]
 
