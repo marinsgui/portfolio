@@ -5,6 +5,7 @@ import panelinha from '../assets/projects/panelinha.png'
 import tasks from '../assets/projects/tasks.png'
 import shopping from '../assets/projects/shop-ping.png'
 import calculadoraImc from '../assets/projects/calculadoraimc.png'
+import weatherApp from '../assets/projects/weather-app.png'
 
 export default function Projects() {
     const projects = [
@@ -37,6 +38,12 @@ export default function Projects() {
             src: calculadoraImc,
             code: 'https://github.com/marinsgui/calculadora-de-imc',
             project: 'https://calculadora-de-imc-eta.vercel.app/',
+        },
+        {
+            id: 6,
+            src: weatherApp,
+            code: 'https://github.com/marinsgui/weather-app',
+            project: 'https://weather-app-beta-one-89.vercel.app/',
         },
     ]
 
