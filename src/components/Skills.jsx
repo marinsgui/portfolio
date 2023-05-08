@@ -7,6 +7,7 @@ import tailwindImg from '../assets/tailwind.png'
 import nextjsImg from '../assets/nextjs.png'
 import githubImg from '../assets/github.png'
 import bootstrapImg from '../assets/bootstrap.png'
+import styledImg from '../assets/styled-components.png'
 
 import Image from 'next/image'
 
@@ -59,6 +60,12 @@ export default function Skills() {
             src: bootstrapImg,
             title: 'Bootstrap',
             style: 'shadow-purple-500'
+        },
+        {
+            id: 9,
+            src: styledImg,
+            title: 'Styled Components',
+            style: 'shadow-pink-200'
         },
     ]
 
