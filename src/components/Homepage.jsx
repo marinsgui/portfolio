@@ -36,7 +36,7 @@ export default function Homepage() {
                 </div>
 
                 <div className='w-2/3 md:w-full'>
-                    <Image src={jsAnimated} />
+                    <Image src={jsAnimated} alt='' />
                 </div>
             </div>
         </main>

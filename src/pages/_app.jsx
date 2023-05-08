@@ -1,7 +1,7 @@
-import '@/styles/globals.css'
+import '../styles/globals.css'
 
-import Header from '@/components/Header'
-import SocialLinks from '@/components/SocialLinks'
+import Header from '../components/Header'
+import SocialLinks from '../components/SocialLinks'
 
 export default function App({ Component, pageProps }) {
   return (
