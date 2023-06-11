@@ -6,7 +6,7 @@ import reactImg from '../assets/react.png'
 import tailwindImg from '../assets/tailwind.png'
 import nextjsImg from '../assets/nextjs.png'
 import githubImg from '../assets/github.png'
-import bootstrapImg from '../assets/bootstrap.png'
+import materialUiImg from '../assets/material-ui.png'
 import styledImg from '../assets/styled-components.png'
 
 import Image from 'next/image'
@@ -35,7 +35,7 @@ export default function Skills() {
             id: 4,
             src: reactImg,
             title: 'React',
-            style: 'shadow-blue-600'
+            style: 'shadow-blue-400'
         },
         {
             id: 5,
@@ -57,9 +57,9 @@ export default function Skills() {
         },
         {
             id: 8,
-            src: bootstrapImg,
-            title: 'Bootstrap',
-            style: 'shadow-purple-500'
+            src: materialUiImg,
+            title: 'Material UI',
+            style: 'shadow-blue-600'
         },
         {
             id: 9,
