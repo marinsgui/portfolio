@@ -2,6 +2,7 @@
 import htmlImg from '../assets/html.png'
 import cssImg from '../assets/css.png'
 import javascriptImg from '../assets/javascript.png'
+import typescriptImg from '../assets/typescript.jpg'
 import reactImg from '../assets/react.png'
 import tailwindImg from '../assets/tailwind.png'
 import nextjsImg from '../assets/nextjs.png'
@@ -33,36 +34,42 @@ export default function Skills() {
         },
         {
             id: 4,
+            src: typescriptImg,
+            title: 'TypeScript',
+            style: 'shadow-blue-500'
+        },
+        {
+            id: 5,
             src: reactImg,
             title: 'React',
             style: 'shadow-blue-400'
         },
         {
-            id: 5,
+            id: 6,
             src: tailwindImg,
             title: 'TailwindCSS',
             style: 'shadow-sky-400'
         },
         {
-            id: 6,
+            id: 7,
             src: nextjsImg,
             title: 'NextJS',
             style: 'shadow-white'
         },
         {
-            id: 7,
+            id: 8,
             src: githubImg,
             title: 'Github',
             style: 'shadow-gray-400'
         },
         {
-            id: 8,
+            id: 9,
             src: materialUiImg,
             title: 'Material UI',
             style: 'shadow-blue-600'
         },
         {
-            id: 9,
+            id: 10,
             src: styledImg,
             title: 'Styled Components',
             style: 'shadow-pink-200'
