@@ -5,7 +5,7 @@ import panelinha from '../assets/projects/panelinha.png'
 import tasks from '../assets/projects/tasks.png'
 import shopping from '../assets/projects/shop-ping.png'
 import calculadoraImc from '../assets/projects/calculadoraimc.png'
-import weatherApp from '../assets/projects/weather-app.png'
+import bodyfitImg from '../assets/projects/bodyfit.png'
 
 export default function Projects() {
     const projects = [
@@ -17,33 +17,33 @@ export default function Projects() {
         },
         {
             id: 2,
-            src: panelinha,
-            code: 'https://github.com/marinsgui/panelinha',
-            project: 'https://panelinha.vercel.app/',
+            src: bodyfitImg,
+            code: 'https://github.com/marinsgui/bodyfit',
+            project: 'https://bodyfit-gray.vercel.app/',
         },
         {
             id: 3,
-            src: tasks,
-            code: 'https://github.com/marinsgui/tasks',
-            project: 'https://tasks-tau-six.vercel.app/',
-        },
-        {
-            id: 4,
             src: shopping,
             code: 'https://github.com/marinsgui/shop-ping',
             project: 'https://shop-ping.vercel.app/',
         },
         {
+            id: 4,
+            src: panelinha,
+            code: 'https://github.com/marinsgui/panelinha',
+            project: 'https://panelinha.vercel.app/',
+        },
+        {
             id: 5,
-            src: calculadoraImc,
-            code: 'https://github.com/marinsgui/calculadora-de-imc',
-            project: 'https://calculadora-de-imc-eta.vercel.app/',
+            src: tasks,
+            code: 'https://github.com/marinsgui/tasks',
+            project: 'https://tasks-tau-six.vercel.app/',
         },
         {
             id: 6,
-            src: weatherApp,
-            code: 'https://github.com/marinsgui/weather-app',
-            project: 'https://weather-app-beta-one-89.vercel.app/',
+            src: calculadoraImc,
+            code: 'https://github.com/marinsgui/calculadora-de-imc',
+            project: 'https://calculadora-de-imc-eta.vercel.app/',
         },
     ]
 
