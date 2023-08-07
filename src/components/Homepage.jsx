@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import jsAnimated from '../assets/javascript-frameworks-animate.svg'
 
-import { MdOutlineArrowForwardIos } from 'react-icons/md' 
+import { ChevronRight } from 'lucide-react'
 
 import { Link } from 'react-scroll'
 
@@ -29,7 +29,7 @@ export default function Homepage() {
                         >
                             Projetos
                             <span className='group-hover:rotate-90 duration-300'>
-                                <MdOutlineArrowForwardIos size={20} className='pl-2' />
+                                <ChevronRight size={20} className='pl-2' />
                             </span>
                         </Link>
                     </div>

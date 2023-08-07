@@ -1,5 +1,4 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
+import { Github, Linkedin, Mail } from 'lucide-react'
 
 export default function SocialLinks() {
     const links = [
@@ -7,7 +6,7 @@ export default function SocialLinks() {
             id: 1,
             child: (
                 <>
-                    Github <FaGithub size={30} />
+                    Github <Github size={30} />
                 </>
             ),
             href: 'https://github.com/marinsgui',
@@ -17,7 +16,7 @@ export default function SocialLinks() {
             id: 2,
             child: (
                 <>
-                    Linkedin <FaLinkedin size={30} />
+                    Linkedin <Linkedin size={30} />
                 </>
             ),
             href: 'https://www.linkedin.com/in/guilherme-marins/',
@@ -26,7 +25,7 @@ export default function SocialLinks() {
             id: 3,
             child: (
                 <>
-                    Email <HiOutlineMail size={30} />
+                    Email <Mail size={30} />
                 </>
             ),
             href: 'mailto:marins0guilherme@gmail.com',

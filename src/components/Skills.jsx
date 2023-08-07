@@ -1,4 +1,3 @@
-// images
 import htmlImg from '../assets/html.png'
 import cssImg from '../assets/css.png'
 import javascriptImg from '../assets/javascript.png'
