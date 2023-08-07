@@ -1,7 +1,6 @@
 import Image from "next/image";
 
-import doodlesImg from "../assets/doodles-mixed-round.svg";
-import manLaptopImg from "../assets/man-laptop.svg";
+import manLaptopImg from "../assets/man-laptop.png";
 
 import { ChevronRight, Download } from "lucide-react";
 
@@ -32,9 +31,8 @@ export default function Homepage() {
           </div>
         </div>
 
-        <div className="w-2/3 md:w-full relative">
-          <Image src={doodlesImg} width={500} alt="" className="absolute -top-28 right-0" />
-          <Image src={manLaptopImg} width={350} alt="" className="absolute top-0 right-28" />
+        <div className="w-2/3 md:w-full">
+          <Image src={manLaptopImg} width={500} alt="" />
         </div>
       </div>
     </main>
